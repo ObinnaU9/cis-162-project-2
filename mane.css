@@ -89,3 +89,58 @@ display: grid;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
   max-height: 40px;
 }
+
+.taskcontainer{
+     background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            
+  background-image: linear-gradient(#E52E71, #5C5470);
+}
+.taskcontainer button{
+border-radius: 8px;
+cursor:pointer;
+color: black;
+border:green;
+}
+
+.nav-list {
+  list-style-type: none; 
+  margin: 50px;
+  padding: 0;
+  background-image:linear-gradient(#E52E71, #5C5470);
+  
+  
+  
+ 
+  display: flex;
+  justify-content: center; 
+}
+.nav-list li a {
+  display: block; 
+  color: white;
+  text-align: center;
+  padding: 14px 20px; 
+  text-decoration: none; 
+}
+
+.nav-list li a:hover {
+  background-color: #555;
+}
+textarea{
+  padding: 100% 100%;
+}
+.img{
+  display: block; 
+  margin: auto;
+}
+#clear-box{
+background: transparent;
+border: 0;
+}
+#clear-ox{
+  background: transparent;
+border: 0;
+}
